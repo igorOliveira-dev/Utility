@@ -9,12 +9,14 @@ export default function Calculator() {
   const [gender, setGender] = useState("male");
   const [activityLevel, setActivityLevel] = useState("sedentary");
   const [bmr, setBmr] = useState(null);
+  const [totalCalories, setTotalCalories] = useState(null);
   const [error, setError] = useState(null);
 
   const calculateBMR = () => {
-    if (weight !== "" && height !== "" && age !== "") {
+    if (weight && height && age && activityLevel) {
       setError(null);
       let bmrValue;
+
       if (gender === "male") {
         bmrValue = 88.36 + 13.4 * weight + 4.8 * height - 5.7 * age;
       } else {
@@ -29,8 +31,9 @@ export default function Calculator() {
         extra_active: 1.9,
       };
 
-      bmrValue *= activityMultiplier[activityLevel];
+      const totalCaloriesValue = bmrValue * activityMultiplier[activityLevel];
       setBmr(bmrValue);
+      setTotalCalories(totalCaloriesValue);
     } else {
       setError("Preencha todos os campos");
     }
@@ -106,10 +109,11 @@ export default function Calculator() {
           </button>
         </div>
         {bmr ? (
-          <div className="transparent20 p-2 text-center mt-4">
-            <p>
-              Sua Taxa Metabólica Basal é: <br /> {bmr.toFixed(2)} calorias/dia
-            </p>
+          <div className="transparent20 p-2 mt-4">
+            <h3 className="mt-2 font-bold">Taxa metabólica basal:</h3>
+            <p>{bmr.toFixed(2)} calorias; </p>
+            <h3 className="mt-2 font-bold">Gasto calórico total:</h3>
+            <p>{totalCalories.toFixed(2)} calorias/dia;</p>
           </div>
         ) : (
           <div className="transparent20 p-2 text-center mt-4">
