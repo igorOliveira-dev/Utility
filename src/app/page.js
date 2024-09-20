@@ -19,6 +19,11 @@ const services = [
     path: "calculadora-regra-de-tres",
   },
   {
+    title: "Calculadora de TMB",
+    description: "Calcula sua taxa metabólica basal e avalia sua necessidade de calorias.",
+    path: "calculadora-tmb",
+  },
+  {
     title: "Contador de caracteres",
     description: "Conta quantos caracteres, palavras e linhas tem no seu texto.",
     path: "contador-caracteres",
@@ -63,7 +68,7 @@ export default function Home() {
           placeholder="Pesquise nossos serviços"
           onChange={(e) => setSearch(e.target.value)}
         />
-        <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <ul className="grid grid-cols-1 lg:grid-cols-2 gap-3">
           {filteredServices.map((service, index) => (
             <li key={index}>
               <a
