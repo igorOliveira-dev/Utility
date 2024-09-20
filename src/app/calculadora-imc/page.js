@@ -96,6 +96,9 @@ export default function ImcCalculator() {
             <Link href="calculadora-porcentagem" className="p-2 text-transparent90 underline">
               Calculadora de porcentagem
             </Link>
+            <Link href="calculadora-tmb" className="p-2 text-transparent90 underline">
+              Calculadora de TMB
+            </Link>
           </nav>
         </div>
       </div>
