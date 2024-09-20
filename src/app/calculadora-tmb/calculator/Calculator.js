@@ -21,7 +21,6 @@ export default function Calculator() {
         bmrValue = 447.6 + 9.2 * weight + 3.1 * height - 4.3 * age;
       }
 
-      // Ajustar TMB com base no nível de atividade física
       const activityMultiplier = {
         sedentary: 1.2,
         lightly_active: 1.375,
