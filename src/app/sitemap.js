@@ -51,5 +51,10 @@ export default function sitemap() {
       lastModified: currentDate,
       priority: 0.8,
     },
+    {
+      url: "https://utilitytools.vercel.app/calculadora-tmb",
+      lastModified: currentDate,
+      priority: 0.8,
+    },
   ];
 }
