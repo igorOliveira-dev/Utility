@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export async function generateMetadata() {
   return {
-    title: "Calculadora de Porcentagem | Utility",
+    title: "Calculadora de TMB | Utility",
     description:
       "Essa calculadora de taxa metabólica basal te ajuda a entender o mínimo de calorias que o seu corpo precisa com base nas suas informações.",
     alternates: {
