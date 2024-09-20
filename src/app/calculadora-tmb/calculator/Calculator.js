@@ -7,11 +7,12 @@ export default function Calculator() {
   const [height, setHeight] = useState("");
   const [age, setAge] = useState("");
   const [gender, setGender] = useState("male");
+  const [activityLevel, setActivityLevel] = useState("sedentary");
   const [bmr, setBmr] = useState(null);
   const [error, setError] = useState(null);
 
   const calculateBMR = () => {
-    if (weight != "" && height != "" && age != "") {
+    if (weight !== "" && height !== "" && age !== "") {
       setError(null);
       let bmrValue;
       if (gender === "male") {
@@ -19,9 +20,20 @@ export default function Calculator() {
       } else {
         bmrValue = 447.6 + 9.2 * weight + 3.1 * height - 4.3 * age;
       }
+
+      // Ajustar TMB com base no nível de atividade física
+      const activityMultiplier = {
+        sedentary: 1.2,
+        lightly_active: 1.375,
+        moderately_active: 1.55,
+        very_active: 1.725,
+        extra_active: 1.9,
+      };
+
+      bmrValue *= activityMultiplier[activityLevel];
       setBmr(bmrValue);
     } else {
-      setError("Preencha os campos");
+      setError("Preencha todos os campos");
     }
   };
 
@@ -75,6 +87,20 @@ export default function Calculator() {
                 </select>
               </div>
             </div>
+          </div>
+          <div className="mb-4">
+            <label className="block mb-2">Nível de Atividade Física:</label>
+            <select
+              value={activityLevel}
+              onChange={(e) => setActivityLevel(e.target.value)}
+              className="p-2 border border-gray-300 rounded text-black w-80"
+            >
+              <option value="sedentary">Sedentário</option>
+              <option value="lightly_active">Levemente Ativo</option>
+              <option value="moderately_active">Moderadamente Ativo</option>
+              <option value="very_active">Muito Ativo</option>
+              <option value="extra_active">Extremamente Ativo</option>
+            </select>
           </div>
           <button onClick={calculateBMR} className="p-2 bg-blue-500 text-white rounded mt-4 w-full">
             Calcular
