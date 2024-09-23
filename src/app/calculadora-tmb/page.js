@@ -101,6 +101,9 @@ export default function TmbCalculator() {
             <Link href="calculadora-imc" className="p-2 text-transparent90 underline">
               Calculadora de IMC
             </Link>
+            <Link href="contador-calorias" className="p-2 text-transparent90 underline">
+              Contador de calorias
+            </Link>
           </nav>
         </div>
       </div>

@@ -78,7 +78,6 @@ export default function RuleOfThree() {
           </p>
         </div>
       </article>
-
       <div className="w-full pt-2 transparent flex justify-center">
         <div className="m-2">
           <h3 className="m-2">Serviços semelhantes:</h3>

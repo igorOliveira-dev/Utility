@@ -24,6 +24,11 @@ const services = [
     path: "calculadora-tmb",
   },
   {
+    title: "Contador de calorias",
+    description: "Conta as calorias totais de suas refeições.",
+    path: "contador-calorias",
+  },
+  {
     title: "Contador de caracteres",
     description: "Conta quantos caracteres, palavras e linhas tem no seu texto.",
     path: "contador-caracteres",

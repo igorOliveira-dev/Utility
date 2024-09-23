@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Calculator() {
   const [weight, setWeight] = useState("");
@@ -121,6 +122,16 @@ export default function Calculator() {
           </div>
         )}
         <div>{error && <p className="text-red-500 text-center mt-4">{error}</p>}</div>
+        {totalCalories && !error ? (
+          <p className="text-center mt-4">
+            Teste também nosso{" "}
+            <Link href="contador-calorias" className="text-blue-500 hover:text-blue-700 underline">
+              Contador de calorias
+            </Link>
+          </p>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );
