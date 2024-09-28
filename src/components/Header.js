@@ -12,7 +12,7 @@ export default function Header() {
   };
 
   return (
-    <header className="p-5 flex justify-between items-center transparent mb-4">
+    <header className="p-5 flex justify-between items-center transparent">
       <div>
         <a href="/" className="flex items-center cursor-pointer">
           <picture>
@@ -33,6 +33,11 @@ export default function Header() {
               <li className="flex flex-col">
                 <Link className="px-2 py-2 hover:bg-gray-200 cursor-pointer" href="/" onClick={toggleMenu}>
                   Serviços
+                </Link>
+              </li>
+              <li className="flex flex-col">
+                <Link className="px-2 py-2 hover:bg-gray-200 cursor-pointer" href="blog" onClick={toggleMenu}>
+                  Blog
                 </Link>
               </li>
               <li className="flex flex-col">

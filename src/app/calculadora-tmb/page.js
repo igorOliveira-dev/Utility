@@ -19,9 +19,7 @@ export default function TmbCalculator() {
       <Calculator />
       <article className="p-10">
         <div className="mb-3">
-          <h2 className="text-2xl font-bold">
-            Descubra Sua <strong>Taxa Metabólica Basal (TMB)</strong> e <strong>Gasto Calórico Total</strong>
-          </h2>
+          <h2 className="text-2xl">Descubra Sua Taxa Metabólica Basal (TMB) e Gasto Calórico Total</h2>
           <p>
             Nossa <strong>calculadora de TMB</strong> online ajuda você a entender quantas calorias seu corpo precisa para manter as
             funções vitais em repouso. Além disso, calculamos seu <strong>gasto calórico total</strong>, que inclui todas as atividades
@@ -29,9 +27,7 @@ export default function TmbCalculator() {
           </p>
         </div>
         <div className="mb-3">
-          <h2 className="text-2xl font-bold">
-            Como Calcular Sua <strong>TMB</strong> e <strong>Gasto Calórico</strong>
-          </h2>
+          <h2 className="text-2xl">Como Calcular Sua TMB e Gasto Calórico</h2>
           <p>
             Para usar a <strong>calculadora de TMB</strong>, insira seus dados como peso, altura, idade e nível de atividade física. A
             ferramenta fornecerá uma estimativa precisa da sua <strong>taxa metabólica basal</strong> e do seu{" "}
@@ -39,18 +35,14 @@ export default function TmbCalculator() {
           </p>
         </div>
         <div className="mb-3">
-          <h2 className="text-2xl font-bold">
-            Entenda a Relação entre <strong>Calorias</strong> e <strong>Peso</strong>
-          </h2>
+          <h2 className="text-2xl">Entenda a Relação entre Calorias e Peso</h2>
           <p>
             Comer acima do seu <strong>gasto calórico total</strong> resulta em <strong>ganho de peso</strong>, enquanto comer abaixo
             resulta em <strong>perda de peso</strong>. Manter um equilíbrio é crucial para atingir suas metas de saúde e bem-estar.
           </p>
         </div>
         <div className="mb-3">
-          <h2 className="text-2xl font-bold">
-            Vantagens de Usar a <strong>Calculadora de TMB</strong>
-          </h2>
+          <h2 className="text-2xl">Vantagens de Usar a Calculadora de TMB</h2>
           <ul className="list-disc list-inside">
             <li>
               <strong>Precisão e Confiabilidade:</strong> Obtenha resultados baseados em fórmulas científicas, garantindo uma
@@ -67,9 +59,7 @@ export default function TmbCalculator() {
           </ul>
         </div>
         <div className="mb-3">
-          <h2 className="text-2xl font-bold">
-            Dicas para Maximizar os Benefícios da <strong>Calculadora de TMB</strong>
-          </h2>
+          <h2 className="text-2xl">Dicas para Maximizar os Benefícios da Calculadora de TMB</h2>
           <ul className="list-disc list-inside">
             <li>
               <strong>Atualize Regularmente:</strong> Recalcule sua <strong>TMB</strong> periodicamente, especialmente após mudanças
@@ -86,7 +76,7 @@ export default function TmbCalculator() {
           </ul>
         </div>
         <div className="mb-3">
-          <h2 className="text-2xl font-bold">Conclusão</h2>
+          <h2 className="text-2xl">Conclusão</h2>
           <p>
             Utilize nossa <strong>calculadora de TMB</strong> para obter uma visão clara das suas necessidades calóricas diárias. Para
             uma análise mais detalhada e personalizada, é sempre recomendável consultar um profissional de saúde. Simplifique o

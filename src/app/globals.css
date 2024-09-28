@@ -57,3 +57,7 @@ body {
 .bgHover:hover {
   background-color: var(--color-transparency20);
 }
+
+.border-custom-color {
+  border-color: var(--color-transparency60);
+}

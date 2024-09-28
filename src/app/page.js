@@ -1,5 +1,6 @@
 "use client";
 
+import BlogBanner from "@/components/BlogBanner";
 import React, { useState } from "react";
 
 const services = [
@@ -65,8 +66,8 @@ export default function Home() {
 
   return (
     <main>
-      <section className="p-5 mb-10">
-        <h1 className="text-2xl">Nossos Serviços:</h1>
+      <section className="p-5">
+        <h1 className="text-3xl font-bold">Nossos Serviços:</h1>
         <input
           type="text"
           className="mb-5 mt-5 max-w-lg w-full text-black p-2 rounded-md transparent20"
@@ -78,7 +79,7 @@ export default function Home() {
             <li key={index}>
               <a
                 href={service.path}
-                className="p-3 max-w-xl flex flex-col items-start cursor-pointer hover:ml-2 hover:abc transition-all duration-150 border-b border-b-1 border-solid border-custom-white bgHover"
+                className="p-3 max-w-xl flex flex-col items-start cursor-pointer hover:ml-2 hover:abc transition-all duration-150 border-b border-b-1 border-solid border-custom-color bgHover"
               >
                 <h2 className="text-xl font-bold">{service.title}</h2>
                 <p className="text-gray-400">{service.description}</p>
@@ -86,6 +87,7 @@ export default function Home() {
             </li>
           ))}
         </ul>
+        <BlogBanner />
       </section>
     </main>
   );
