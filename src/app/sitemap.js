@@ -1,91 +1,85 @@
 export default function sitemap() {
-  const currentDate = new Date().toISOString();
   return [
     // principal
     {
       url: "https://utilitytools.vercel.app/",
-      lastModified: currentDate,
+      lastModified: "2024-09-30",
       priority: 1.0,
     },
     {
       url: "https://utilitytools.vercel.app/blog",
-      lastModified: currentDate,
+      lastModified: "2024-09-30",
       priority: 1.0,
     },
     {
       url: "https://utilitytools.vercel.app/sobre",
-      lastModified: currentDate,
+      lastModified: "2024-09-30",
       priority: 0.6,
     },
 
     // ferramentas
     {
       url: "https://utilitytools.vercel.app/contador-caracteres",
-      lastModified: currentDate,
+      lastModified: "2024-09-30",
       priority: 0.8,
     },
     {
       url: "https://utilitytools.vercel.app/conversor-binario",
-      lastModified: currentDate,
+      lastModified: "2024-09-30",
       priority: 0.8,
     },
     {
       url: "https://utilitytools.vercel.app/conversor-morse",
-      lastModified: currentDate,
+      lastModified: "2024-09-30",
       priority: 0.8,
     },
     {
       url: "https://utilitytools.vercel.app/gerador-senha",
-      lastModified: currentDate,
+      lastModified: "2024-09-30",
       priority: 0.8,
     },
     {
       url: "https://utilitytools.vercel.app/calculadora-imc",
-      lastModified: currentDate,
+      lastModified: "2024-09-30",
       priority: 0.8,
     },
     {
       url: "https://utilitytools.vercel.app/conversor-moedas",
-      lastModified: currentDate,
+      lastModified: "2024-09-30",
       priority: 0.8,
     },
     {
       url: "https://utilitytools.vercel.app/calculadora-regra-de-tres",
-      lastModified: currentDate,
+      lastModified: "2024-09-30",
       priority: 0.8,
     },
     {
       url: "https://utilitytools.vercel.app/calculadora-porcentagem",
-      lastModified: currentDate,
+      lastModified: "2024-09-30",
       priority: 0.8,
     },
     {
       url: "https://utilitytools.vercel.app/calculadora-tmb",
-      lastModified: currentDate,
+      lastModified: "2024-09-30",
       priority: 0.8,
     },
     {
       url: "https://utilitytools.vercel.app/contador-calorias",
-      lastModified: currentDate,
-      priority: 0.8,
-    },
-    {
-      url: "https://utilitytools.vercel.app/contador-calorias",
-      lastModified: currentDate,
+      lastModified: "2024-09-30",
       priority: 0.8,
     },
 
     // categorias do blog
     {
       url: "https://utilitytools.vercel.app/blog/categorias/noticias-e-tendencias",
-      lastModified: currentDate,
+      lastModified: "2024-09-30",
       priority: 0.8,
     },
 
     // artigos do blog
     {
       url: "https://utilitytools.vercel.app/blog/artigos/o-que-e-inteligencia-artificial",
-      lastModified: currentDate,
+      lastModified: "2024-09-30",
       priority: 0.8,
     },
   ];

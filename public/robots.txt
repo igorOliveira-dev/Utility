@@ -1,5 +1,4 @@
 User-agent: *
 Disallow: /politica-privacidade
-Disallow: /blog
 
 Sitemap: https://utilitytools.vercel.app/sitemap.xml
