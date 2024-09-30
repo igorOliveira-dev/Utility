@@ -1,8 +1,14 @@
 export default function sitemap() {
   const currentDate = new Date().toISOString();
   return [
+    // principal
     {
       url: "https://utilitytools.vercel.app/",
+      lastModified: currentDate,
+      priority: 1.0,
+    },
+    {
+      url: "https://utilitytools.vercel.app/blog",
       lastModified: currentDate,
       priority: 1.0,
     },
@@ -11,6 +17,8 @@ export default function sitemap() {
       lastModified: currentDate,
       priority: 0.6,
     },
+
+    // ferramentas
     {
       url: "https://utilitytools.vercel.app/contador-caracteres",
       lastModified: currentDate,
@@ -63,6 +71,20 @@ export default function sitemap() {
     },
     {
       url: "https://utilitytools.vercel.app/contador-calorias",
+      lastModified: currentDate,
+      priority: 0.8,
+    },
+
+    // categorias do blog
+    {
+      url: "https://utilitytools.vercel.app/blog/categorias/noticias-e-tendencias",
+      lastModified: currentDate,
+      priority: 0.8,
+    },
+
+    // artigos do blog
+    {
+      url: "https://utilitytools.vercel.app/blog/artigos/o-que-e-inteligencia-artificial",
       lastModified: currentDate,
       priority: 0.8,
     },

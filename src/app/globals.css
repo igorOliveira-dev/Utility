@@ -11,6 +11,7 @@
   --color-secondary: #111111;
   --color-transparency: #11111110;
   --color-transparency20: #11111120;
+  --color-transparency40: #11111140;
   --color-transparency60: #11111160;
   --color-transparency90: #11111190;
 }
@@ -21,9 +22,14 @@
     --color-secondary: #fdfdfd;
     --color-transparency: #dddddd10;
     --color-transparency20: #dddddd20;
+    --color-transparency40: #dddddd40;
     --color-transparency60: #dddddd60;
     --color-transparency90: #dddddd90;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -38,6 +44,11 @@ body {
 
 .transparent20 {
   background-color: var(--color-transparency20);
+  color: var(--color-secondary);
+}
+
+.transparent40 {
+  background-color: var(--color-transparency40);
   color: var(--color-secondary);
 }
 
@@ -60,4 +71,8 @@ body {
 
 .border-custom-color {
   border-color: var(--color-transparency60);
+}
+
+.full-screen {
+  min-height: 80vh;
 }

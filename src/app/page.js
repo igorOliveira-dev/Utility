@@ -2,6 +2,7 @@
 
 import BlogBanner from "@/components/BlogBanner";
 import React, { useState } from "react";
+import MainArticlesSection from "./blog/components/mainArticlesSection/MainArticlesSection";
 
 const services = [
   {
@@ -79,7 +80,7 @@ export default function Home() {
             <li key={index}>
               <a
                 href={service.path}
-                className="p-3 max-w-xl flex flex-col items-start cursor-pointer hover:ml-2 hover:abc transition-all duration-150 border-b border-b-1 border-solid border-custom-color bgHover"
+                className="p-3 max-w-xl flex flex-col items-start cursor-pointer hover:ml-2 transition-all duration-150 border-b border-b-1 border-solid border-custom-color bgHover"
               >
                 <h2 className="text-xl font-bold">{service.title}</h2>
                 <p className="text-gray-400">{service.description}</p>
@@ -88,6 +89,7 @@ export default function Home() {
           ))}
         </ul>
         <BlogBanner />
+        <MainArticlesSection />
       </section>
     </main>
   );
