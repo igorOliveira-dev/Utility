@@ -36,17 +36,17 @@ export default function Header() {
                 </Link>
               </li>
               <li className="flex flex-col">
-                <Link className="px-2 py-2 hover:bg-gray-200 cursor-pointer" href="blog" onClick={toggleMenu}>
+                <Link className="px-2 py-2 hover:bg-gray-200 cursor-pointer" href="/blog" onClick={toggleMenu}>
                   Blog
                 </Link>
               </li>
               <li className="flex flex-col">
-                <Link className="px-2 py-2 hover:bg-gray-200 cursor-pointer" href="sobre" onClick={toggleMenu}>
+                <Link className="px-2 py-2 hover:bg-gray-200 cursor-pointer" href="/sobre" onClick={toggleMenu}>
                   Sobre
                 </Link>
               </li>
               <li className="flex flex-col">
-                <Link className="px-2 py-2 hover:bg-gray-200 cursor-pointer" href="politica-privacidade" onClick={toggleMenu}>
+                <Link className="px-2 py-2 hover:bg-gray-200 cursor-pointer" href="/politica-privacidade" onClick={toggleMenu}>
                   Política de privacidade
                 </Link>
               </li>
