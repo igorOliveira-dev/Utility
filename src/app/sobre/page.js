@@ -4,7 +4,7 @@ export async function generateMetadata() {
   return {
     title: "Sobre | Utility",
     description:
-      "Descubra o Utility Tools, uma plataforma inovadora que oferece uma variedade de ferramentas úteis para facilitar o seu dia a dia. Desde geradores de texto até contadores de caracteres e muito mais, nossas ferramentas são projetadas para aumentar a produtividade e a eficiência. Explore nossas ferramentas diversas para simplificar suas tarefas diárias!",
+      "Descubra o Utility Tools, uma plataforma inovadora que oferece uma variedade de ferramentas úteis para facilitar o seu dia a dia e agora também temos um blog para aprender muito sobre o mundo da tecnologia!",
     alternates: {
       canonical: "https://utilitytools.vercel.app/sobre",
     },
@@ -19,11 +19,22 @@ export default function About() {
         <div className="mb-3">
           <h2 className="text-2xl">O que é o Utility?</h2>
           <p>
-            O <strong>Utility</strong> é uma plataforma inovadora dedicada a fornecer uma ampla gama de ferramentas úteis para
-            facilitar o seu dia a dia. Nosso site oferece desde ferramentas simples de texto até soluções mais complexas, e estamos
-            constantemente trabalhando para ampliar essas ferramentas e atender a todas as suas necessidades. Com uma interface
-            intuitiva e fácil de usar, o Utility é o seu aliado perfeito para aumentar a produtividade e eficiência em diversas
-            tarefas.
+            O <strong>Utility</strong> é uma plataforma inovadora dedicada a fornecer uma gama de ferramentas úteis para facilitar o
+            seu dia a dia. Nosso site oferece desde ferramentas simples de texto até soluções mais complexas, e estamos constantemente
+            trabalhando para ampliar essas ferramentas e atender a todas as suas necessidades. Com uma interface intuitiva e fácil de
+            usar, o Utility é o seu aliado perfeito para aumentar a produtividade e eficiência em diversas tarefas.
+          </p>
+        </div>
+        <div className="mb-3">
+          <h2 className="text-2xl">Nosso Blog de Tecnologia</h2>
+          <p>
+            Além das ferramentas, o <strong>Utility</strong> agora conta com um{" "}
+            <Link href="blog" className="text-blue-500 hover:text-blue-700 underline">
+              blog de tecnologia
+            </Link>{" "}
+            onde você pode se manter atualizado com as últimas tendências e inovações do mundo tech. Nosso blog oferece artigos,
+            tutoriais e análises detalhadas para ajudar você a entender melhor as tecnologias emergentes e como elas podem ser
+            aplicadas no seu dia a dia.
           </p>
         </div>
         <div className="mb-3">

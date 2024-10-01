@@ -13,7 +13,7 @@ export default function sitemap() {
     },
     {
       url: "https://utilitytools.vercel.app/sobre",
-      lastModified: "2024-09-30",
+      lastModified: "2024-10-01",
       priority: 0.6,
     },
 
