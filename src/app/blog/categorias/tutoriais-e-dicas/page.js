@@ -17,7 +17,7 @@ export default function TutorialsAndTips() {
       <Link href="/blog" className="p-2 transparent20 rounded-lg">
         {"< Início do blog"}
       </Link>
-      <h1 className="text-2xl font-semibold my-6">Tendências da tecnologia:</h1>
+      <h1 className="text-2xl font-semibold my-6">Tutoriais e dicas:</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
         {articles.map((article, index) => (
           <Article key={index} {...article} />
