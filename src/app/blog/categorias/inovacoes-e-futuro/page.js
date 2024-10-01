@@ -4,9 +4,8 @@ import { articles } from "../../data/data.js";
 
 export async function generateMetadata() {
   return {
-    title: "Blog - notícias e tendências | Utility",
-    description:
-      "Veja artigos sobre as principais notícias e tendências atuais relacionadas a tecnologia e fique por dentro de tudo que importa hoje.",
+    title: "Blog - Inovações e futuro | Utility",
+    description: "Conheça o futuro da tecnologia, veja onde chegaremos nos próximos anos com essa área tão fascinante.",
     alternates: {
       canonical: "https://utilitytools.vercel.app/blog",
     },
@@ -14,7 +13,7 @@ export async function generateMetadata() {
 }
 
 export default function NoticesAndTendences() {
-  const filteredArticles = articles.filter((article) => article.category === "noticias-e-tendencias");
+  const filteredArticles = articles.filter((article) => article.category === "inovacoes-e-futuro");
   return (
     <section className="p-6 full-screen">
       <ReturnButton />
