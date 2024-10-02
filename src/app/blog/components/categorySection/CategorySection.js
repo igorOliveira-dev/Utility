@@ -14,11 +14,6 @@ export default function CategorySection() {
         <Link href="blog/categorias/inovacoes-e-futuro" className="transparent text-white py-4 px-6 rounded-lg transition-all bgHover">
           Inovações e futuro
         </Link>
-        {/*
-          Tutorias e dicasAnálises e reviews
-          Desenvolvimento e programação
-          Segurança e privacidade
-        */}
       </nav>
     </section>
   );

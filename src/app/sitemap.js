@@ -8,7 +8,7 @@ export default function sitemap() {
     },
     {
       url: "https://utilitytools.vercel.app/blog",
-      lastModified: "2024-10-01",
+      lastModified: "2024-10-02",
       priority: 1.0,
     },
     {
@@ -72,7 +72,7 @@ export default function sitemap() {
     // categorias do blog
     {
       url: "https://utilitytools.vercel.app/blog/categorias/noticias-e-tendencias",
-      lastModified: "2024-10-01",
+      lastModified: "2024-10-02",
       priority: 0.7,
     },
     {
@@ -90,6 +90,11 @@ export default function sitemap() {
     {
       url: "https://utilitytools.vercel.app/blog/artigos/entenda-a-computacao-quantica",
       lastModified: "2024-10-01",
+      priority: 0.8,
+    },
+    {
+      url: "https://utilitytools.vercel.app/blog/artigos/como-esta-o-mercado-de-tecnologia-em-2024",
+      lastModified: "2024-10-02",
       priority: 0.8,
     },
   ];

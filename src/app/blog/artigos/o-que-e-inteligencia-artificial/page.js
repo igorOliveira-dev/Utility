@@ -1,4 +1,5 @@
 import ReturnButton from "../../components/ReturnButton";
+import SimilarArticles from "../../components/SimilarArticles";
 
 export async function generateMetadata() {
   return {
@@ -12,6 +13,9 @@ export async function generateMetadata() {
 }
 
 export default function Article() {
+  const keywords = ["IA", "Aprendizado", "Automação", "Privacidade", "Ética"];
+  const currentUrl = "/blog/artigos/o-que-e-inteligencia-artificial";
+
   return (
     <article className="p-6">
       <ReturnButton />
@@ -193,6 +197,7 @@ export default function Article() {
         </p>
       </section>
       <ReturnButton />
+      <SimilarArticles keywords={keywords} currentUrl={currentUrl} />
     </article>
   );
 }

@@ -14,7 +14,7 @@ export async function generateMetadata() {
 }
 
 export default function NoticesAndTendences() {
-  const filteredArticles = articles.filter((article) => article.category === "noticias-e-tendencias");
+  const filteredArticles = articles.filter((article) => article.category === "noticias-e-tendencias").sort((a, b) => b.id - a.id);
   return (
     <section className="p-6 full-screen">
       <ReturnButton />

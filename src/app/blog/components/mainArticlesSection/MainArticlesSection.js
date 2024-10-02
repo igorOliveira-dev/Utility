@@ -2,7 +2,7 @@ import Article from "./Article.js";
 import { articles } from "../../data/data.js";
 
 export default function MainArticlesSection() {
-  const filteredArticles = articles.filter((article) => article.main === true);
+  const filteredArticles = articles.filter((article) => article.main === true).sort((a, b) => b.id - a.id);
 
   return (
     <section>

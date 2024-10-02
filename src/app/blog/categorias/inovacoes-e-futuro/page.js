@@ -13,7 +13,7 @@ export async function generateMetadata() {
 }
 
 export default function NoticesAndTendences() {
-  const filteredArticles = articles.filter((article) => article.category === "inovacoes-e-futuro");
+  const filteredArticles = articles.filter((article) => article.category === "inovacoes-e-futuro").sort((a, b) => b.id - a.id);
   return (
     <section className="p-6 full-screen">
       <ReturnButton />

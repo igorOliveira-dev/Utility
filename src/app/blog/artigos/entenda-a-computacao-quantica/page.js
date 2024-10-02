@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ReturnButton from "../../components/ReturnButton";
+import SimilarArticles from "../../components/SimilarArticles";
 
 export async function generateMetadata() {
   return {
@@ -13,6 +14,9 @@ export async function generateMetadata() {
 }
 
 export default function Article() {
+  const keywords = ["Quântica", "Processamento", "Algoritmo", "Velocidade", "Simulação"];
+  const currentUrl = "/blog/artigos/entenda-a-computacao-quantica";
+
   return (
     <article className="p-6">
       <ReturnButton />
@@ -209,6 +213,7 @@ export default function Article() {
         </p>
       </section>
       <ReturnButton />
+      <SimilarArticles keywords={keywords} currentUrl={currentUrl} />
     </article>
   );
 }
