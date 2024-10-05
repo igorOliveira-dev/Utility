@@ -80,9 +80,13 @@ export default function sitemap() {
       lastModified: "2024-10-01",
       priority: 0.7,
     },
-
     {
       url: "https://utilitytools.vercel.app/blog/categorias/desenvolvimento-e-programacao",
+      lastModified: "2024-10-05",
+      priority: 0.7,
+    },
+    {
+      url: "https://utilitytools.vercel.app/blog/categorias/tutoriais-e-dicas",
       lastModified: "2024-10-05",
       priority: 0.7,
     },
@@ -103,9 +107,13 @@ export default function sitemap() {
       lastModified: "2024-10-02",
       priority: 0.8,
     },
-
     {
       url: "https://utilitytools.vercel.app/blog/artigos/codificacao-com-ia-produtividade-ou-burnout",
+      lastModified: "2024-10-05",
+      priority: 0.8,
+    },
+    {
+      url: "https://utilitytools.vercel.app/blog/artigos/como-vender-online-com-persuasao-poderosa",
       lastModified: "2024-10-05",
       priority: 0.8,
     },

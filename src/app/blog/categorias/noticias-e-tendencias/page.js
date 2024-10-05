@@ -8,7 +8,7 @@ export async function generateMetadata() {
     description:
       "Veja artigos sobre as principais notícias e tendências atuais relacionadas a tecnologia e fique por dentro de tudo que importa hoje.",
     alternates: {
-      canonical: "https://utilitytools.vercel.app/blog",
+      canonical: "https://utilitytools.vercel.app/blog/categorias/noticias-e-tendencias",
     },
   };
 }

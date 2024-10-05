@@ -38,11 +38,22 @@ export const articles = [
     description:
       "Entenda os efeitos positivos e negativos do uso de assistentes virtuais no campo da programação. Vai aumentar sua produtividade ou causar burnout?",
     date: "05 de outubro",
-    readTime: 6,
+    readTime: 8,
     path: "/blog/artigos/codificacao-com-ia-produtividade-ou-burnout",
     category: "desenvolvimento-e-programacao",
     main: true,
     id: 4,
+  },
+  {
+    title: "Como vender online  de forma persuasiva",
+    description:
+      "Veja as melhores dicas para vender na internet com métodos de persuasão poderosos ensinados pelos melhores livros e estudos de universidades.",
+    date: "05 de outubro",
+    readTime: 9,
+    path: "/blog/artigos/como-vender-online-com-persuasao-poderosa",
+    category: "tutoriais-e-dicas",
+    main: true,
+    id: 5,
   },
 ];
 

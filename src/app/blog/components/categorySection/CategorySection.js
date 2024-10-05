@@ -20,6 +20,9 @@ export default function CategorySection() {
         >
           Desenvolvimento e programação
         </Link>
+        <Link href="blog/categorias/tutoriais-e-dicas" className="transparent text-white py-4 px-6 rounded-lg transition-all bgHover">
+          Tutoriais e dicas
+        </Link>
       </nav>
     </section>
   );
