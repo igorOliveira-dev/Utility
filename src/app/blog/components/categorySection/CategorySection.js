@@ -14,6 +14,12 @@ export default function CategorySection() {
         <Link href="blog/categorias/inovacoes-e-futuro" className="transparent text-white py-4 px-6 rounded-lg transition-all bgHover">
           Inovações e futuro
         </Link>
+        <Link
+          href="blog/categorias/desenvolvimento-e-programacao"
+          className="transparent text-white py-4 px-6 rounded-lg transition-all bgHover"
+        >
+          Desenvolvimento e programação
+        </Link>
       </nav>
     </section>
   );

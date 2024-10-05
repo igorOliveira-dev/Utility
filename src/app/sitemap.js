@@ -8,7 +8,7 @@ export default function sitemap() {
     },
     {
       url: "https://utilitytools.vercel.app/blog",
-      lastModified: "2024-10-02",
+      lastModified: "2024-10-05",
       priority: 1.0,
     },
     {
@@ -81,6 +81,12 @@ export default function sitemap() {
       priority: 0.7,
     },
 
+    {
+      url: "https://utilitytools.vercel.app/blog/categorias/desenvolvimento-e-programacao",
+      lastModified: "2024-10-05",
+      priority: 0.7,
+    },
+
     // artigos do blog
     {
       url: "https://utilitytools.vercel.app/blog/artigos/o-que-e-inteligencia-artificial",
@@ -95,6 +101,12 @@ export default function sitemap() {
     {
       url: "https://utilitytools.vercel.app/blog/artigos/como-esta-o-mercado-de-tecnologia-em-2024",
       lastModified: "2024-10-02",
+      priority: 0.8,
+    },
+
+    {
+      url: "https://utilitytools.vercel.app/blog/artigos/codificacao-com-ia-produtividade-ou-burnout",
+      lastModified: "2024-10-05",
       priority: 0.8,
     },
   ];

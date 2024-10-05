@@ -33,6 +33,17 @@ export const articles = [
     main: true,
     id: 3,
   },
+  {
+    title: "Codificação com IA: Produtividade ou burnout?",
+    description:
+      "Entenda os efeitos positivos e negativos do uso de assistentes virtuais no campo da programação. Vai aumentar sua produtividade ou causar burnout?",
+    date: "05 de outubro",
+    readTime: 6,
+    path: "/blog/artigos/codificacao-com-ia-produtividade-ou-burnout",
+    category: "desenvolvimento-e-programacao",
+    main: true,
+    id: 4,
+  },
 ];
 
 /*
