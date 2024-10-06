@@ -17,7 +17,7 @@ export const articles = [
     date: "01 de outubro",
     readTime: 7,
     path: "/blog/artigos/entenda-a-computacao-quantica",
-    category: "inovacoes-e-futuro.",
+    category: "inovacoes-e-futuro",
     main: true,
     id: 2,
   },
