@@ -1,5 +1,4 @@
 export const articles = [
-  // notícias e tendências
   {
     title: "O que é a inteligência artificial?",
     description:
