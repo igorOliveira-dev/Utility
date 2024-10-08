@@ -3,12 +3,12 @@ export default function sitemap() {
     // principal
     {
       url: "https://utilitytools.vercel.app/",
-      lastModified: "2024-09-30",
+      lastModified: "2024-10-08",
       priority: 1.0,
     },
     {
       url: "https://utilitytools.vercel.app/blog",
-      lastModified: "2024-10-05",
+      lastModified: "2024-10-08",
       priority: 1.0,
     },
     {
@@ -90,6 +90,11 @@ export default function sitemap() {
       lastModified: "2024-10-05",
       priority: 0.7,
     },
+    {
+      url: "https://utilitytools.vercel.app/blog/categorias/seguranca-e-privacidade",
+      lastModified: "2024-10-08",
+      priority: 0.7,
+    },
 
     // artigos do blog
     {
@@ -115,6 +120,11 @@ export default function sitemap() {
     {
       url: "https://utilitytools.vercel.app/blog/artigos/como-vender-online-com-persuasao-poderosa",
       lastModified: "2024-10-05",
+      priority: 0.8,
+    },
+    {
+      url: "https://utilitytools.vercel.app/blog/artigos/como-proteger-seus-dados-pessoais-na-internet",
+      lastModified: "2024-10-08",
       priority: 0.8,
     },
   ];

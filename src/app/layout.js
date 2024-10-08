@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Utility - Ferramentas Online",
   description:
-    "Venha explorar ferramentas online úteis para o dia a dia, como: contador de caracteres, conversor de código binário e muito mais!",
+    "Venha explorar ferramentas online úteis para o dia a dia, como: contador de caracteres, conversor de código binário e muito mais! Temos também um novo blog que fala tudo sobre tecnologia!",
   author: "Igor Oliveira",
   icons: {
     icon: "/favicon.ico",

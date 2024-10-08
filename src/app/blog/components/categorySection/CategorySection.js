@@ -23,6 +23,12 @@ export default function CategorySection() {
         <Link href="blog/categorias/tutoriais-e-dicas" className="transparent text-white py-4 px-6 rounded-lg transition-all bgHover">
           Tutoriais e dicas
         </Link>
+        <Link
+          href="blog/categorias/seguranca-e-privacidade"
+          className="transparent text-white py-4 px-6 rounded-lg transition-all bgHover"
+        >
+          Segurança e privacidade
+        </Link>
       </nav>
     </section>
   );
