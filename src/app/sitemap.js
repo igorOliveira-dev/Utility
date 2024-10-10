@@ -3,12 +3,12 @@ export default function sitemap() {
     // principal
     {
       url: "https://utilitytools.vercel.app/",
-      lastModified: "2024-10-08",
+      lastModified: "2024-10-10",
       priority: 1.0,
     },
     {
       url: "https://utilitytools.vercel.app/blog",
-      lastModified: "2024-10-08",
+      lastModified: "2024-10-10",
       priority: 1.0,
     },
     {
@@ -72,7 +72,7 @@ export default function sitemap() {
     // categorias do blog
     {
       url: "https://utilitytools.vercel.app/blog/categorias/noticias-e-tendencias",
-      lastModified: "2024-10-02",
+      lastModified: "2024-10-10",
       priority: 0.7,
     },
     {
@@ -125,6 +125,11 @@ export default function sitemap() {
     {
       url: "https://utilitytools.vercel.app/blog/artigos/como-proteger-seus-dados-pessoais-na-internet",
       lastModified: "2024-10-08",
+      priority: 0.8,
+    },
+    {
+      url: "https://utilitytools.vercel.app/blog/artigos/internet-das-coisas-mudando-o-mundo",
+      lastModified: "2024-10-10",
       priority: 0.8,
     },
   ];

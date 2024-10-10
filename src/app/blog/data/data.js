@@ -18,7 +18,6 @@ export const articles = [
     readTime: 7,
     path: "/blog/artigos/entenda-a-computacao-quantica",
     category: "inovacoes-e-futuro",
-    main: true,
     id: 2,
   },
   {
@@ -64,5 +63,15 @@ export const articles = [
     category: "seguranca-e-privacidade",
     main: true,
     id: 6,
+  },
+  {
+    title: "O que é IoT e como ela está mudando o mundo?",
+    description: "Entenda o que significa a Internet das coisas e veja tudo sobre essa tecnologia que conecta os dispositivos e fa.",
+    date: "10 de outubro de 2024",
+    readTime: 8,
+    path: "/blog/artigos/internet-das-coisas-mudando-o-mundo",
+    category: "noticias-e-tendencias",
+    main: true,
+    id: 7,
   },
 ];
