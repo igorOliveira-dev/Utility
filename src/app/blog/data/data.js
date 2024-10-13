@@ -81,7 +81,7 @@ export const articles = [
     date: "13 de outubro de 2024",
     readTime: 8,
     path: "/blog/artigos/como-aprender-logica-de-programacao-com-eficiencia",
-    category: "tutoriais-e-dicas",
+    category: "desenvolvimento-e-programacao",
     main: true,
     id: 8,
   },
