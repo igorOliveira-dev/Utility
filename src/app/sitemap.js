@@ -8,7 +8,7 @@ export default function sitemap() {
     },
     {
       url: "https://utilitytools.vercel.app/blog",
-      lastModified: "2024-10-10",
+      lastModified: "2024-10-13",
       priority: 1.0,
     },
     {
@@ -82,7 +82,7 @@ export default function sitemap() {
     },
     {
       url: "https://utilitytools.vercel.app/blog/categorias/desenvolvimento-e-programacao",
-      lastModified: "2024-10-05",
+      lastModified: "2024-10-13",
       priority: 0.7,
     },
     {
