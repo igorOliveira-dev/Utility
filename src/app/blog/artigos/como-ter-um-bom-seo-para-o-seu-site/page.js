@@ -163,7 +163,7 @@ export default function Article() {
           geralmente é mais difícil do que numa dela de computador.
         </p>
       </section>
-      <section id="resolva-problema" className="mb-8">
+      <section id="resolva-problemas" className="mb-8">
         <h2 className="text-2xl font-bold mb-2">Resolva os problemas do usuário</h2>
         <p>
           Se o usuário chegou até o seu site ele provavelmente tem algum problema pra ser resolvido, por exemplo, você está agora nesse
