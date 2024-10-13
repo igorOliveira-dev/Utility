@@ -132,5 +132,10 @@ export default function sitemap() {
       lastModified: "2024-10-10",
       priority: 0.8,
     },
+    {
+      url: "https://utilitytools.vercel.app/blog/artigos/como-aprender-logica-de-programacao-com-eficiencia",
+      lastModified: "2024-10-13",
+      priority: 0.8,
+    },
   ];
 }

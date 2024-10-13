@@ -28,7 +28,6 @@ export const articles = [
     readTime: 6,
     path: "/blog/artigos/como-esta-o-mercado-de-tecnologia-em-2024",
     category: "noticias-e-tendencias",
-    main: true,
     id: 3,
   },
   {
@@ -66,12 +65,24 @@ export const articles = [
   },
   {
     title: "O que é IoT e como ela está mudando o mundo?",
-    description: "Entenda o que significa a Internet das coisas e veja tudo sobre essa tecnologia que conecta os dispositivos e fa.",
+    description:
+      "Entenda o que significa a Internet das coisas e veja tudo sobre essa tecnologia que conecta os dispositivos e transforma o mundo.",
     date: "10 de outubro de 2024",
     readTime: 8,
     path: "/blog/artigos/internet-das-coisas-mudando-o-mundo",
     category: "noticias-e-tendencias",
     main: true,
     id: 7,
+  },
+  {
+    title: "Como aprender lógica de programação.",
+    description:
+      "Aprenda os conceitos e a forma certa de aprender sobre lógica de programação, que é essencial para qualquer programador.",
+    date: "13 de outubro de 2024",
+    readTime: 8,
+    path: "/blog/artigos/como-aprender-logica-de-programacao-com-eficiencia",
+    category: "tutoriais-e-dicas",
+    main: true,
+    id: 8,
   },
 ];
