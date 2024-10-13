@@ -137,5 +137,10 @@ export default function sitemap() {
       lastModified: "2024-10-13",
       priority: 0.8,
     },
+    {
+      url: "https://utilitytools.vercel.app/blog/artigos/como-ter-um-bom-seo-para-o-seu-site",
+      lastModified: "2024-10-13",
+      priority: 0.8,
+    },
   ];
 }

@@ -60,7 +60,6 @@ export const articles = [
     readTime: 9,
     path: "/blog/artigos/como-proteger-seus-dados-pessoais-na-internet",
     category: "seguranca-e-privacidade",
-    main: true,
     id: 6,
   },
   {
@@ -75,7 +74,7 @@ export const articles = [
     id: 7,
   },
   {
-    title: "Como aprender lógica de programação.",
+    title: "Como aprender lógica de programação",
     description:
       "Aprenda os conceitos e a forma certa de aprender sobre lógica de programação, que é essencial para qualquer programador.",
     date: "13 de outubro de 2024",
@@ -84,5 +83,16 @@ export const articles = [
     category: "desenvolvimento-e-programacao",
     main: true,
     id: 8,
+  },
+  {
+    title: "Como ter um bom SEO para o seu site",
+    description:
+      "Esse guia vai te dar um norte e explicar os principais conceitos que devem ser entendidos para ter um site com um SEO bom.",
+    date: "13 de outubro de 2024",
+    readTime: 9,
+    path: "/blog/artigos/como-ter-um-bom-seo-para-o-seu-site",
+    category: "tutoriais-e-dicas",
+    main: true,
+    id: 9,
   },
 ];
