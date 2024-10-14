@@ -18,10 +18,14 @@ export default function SearchArticles() {
     }
 
     setError("");
-    let filteredArticles = articles.filter(
-      (article) =>
-        article.title.toLowerCase().includes(search.toLowerCase()) || article.description.toLowerCase().includes(search.toLowerCase())
-    );
+    let filteredArticles = articles
+      .filter(
+        (article) =>
+          article.title.toLowerCase().includes(search.toLowerCase()) ||
+          article.description.toLowerCase().includes(search.toLowerCase())
+      )
+      .sort((a, b) => b.id - a.id)
+      .slice(0, 8);
 
     setFinalSearch(filteredArticles);
   };

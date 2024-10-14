@@ -142,5 +142,10 @@ export default function sitemap() {
       lastModified: "2024-10-13",
       priority: 0.8,
     },
+    {
+      url: "https://utilitytools.vercel.app/blog/artigos/como-fazer-dinheiro-com-programacao-sendo-autonomo",
+      lastModified: "2024-10-14",
+      priority: 0.8,
+    },
   ];
 }

@@ -70,7 +70,6 @@ export const articles = [
     readTime: 8,
     path: "/blog/artigos/internet-das-coisas-mudando-o-mundo",
     category: "noticias-e-tendencias",
-    main: true,
     id: 7,
   },
   {
@@ -94,5 +93,16 @@ export const articles = [
     category: "tutoriais-e-dicas",
     main: true,
     id: 9,
+  },
+  {
+    title: "Como fazer dinheiro com programação sendo autônomo",
+    description:
+      "Veja os melhores métodos atuais pra conseguir ganhar dinheiro com programação de forma autônoma, sem se prender à nenhuma empresa.",
+    date: "14 de outubro de 2024",
+    readTime: 10,
+    path: "/blog/artigos/como-fazer-dinheiro-com-programacao-sendo-autonomo",
+    category: "desenvolvimento-e-programacao",
+    main: true,
+    id: 10,
   },
 ];
