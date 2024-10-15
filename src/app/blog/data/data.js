@@ -7,7 +7,6 @@ export const articles = [
     readTime: 8,
     path: "/blog/artigos/o-que-e-inteligencia-artificial",
     category: "noticias-e-tendencias",
-    main: true,
     id: 1,
   },
   {
@@ -104,5 +103,16 @@ export const articles = [
     category: "desenvolvimento-e-programacao",
     main: true,
     id: 10,
+  },
+  {
+    title: "Tecnologia sustentável: Como ela pode mudar o mundo?",
+    description:
+      "Neste artigo você vai ver a importância da tecnologia sustentável no mundo atual, suas principais novidades e a forma que ela melhora o mundo.",
+    date: "15 de outubro de 2024",
+    readTime: 10,
+    path: "/blog/artigos/tecnologia-sustentavel-como-ela-pode-mudar-o-mundo",
+    category: "noticias-e-tendencias",
+    main: true,
+    id: 11,
   },
 ];

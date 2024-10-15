@@ -8,7 +8,7 @@ export default function sitemap() {
     },
     {
       url: "https://utilitytools.vercel.app/blog",
-      lastModified: "2024-10-13",
+      lastModified: "2024-10-15",
       priority: 1.0,
     },
     {
@@ -72,7 +72,7 @@ export default function sitemap() {
     // categorias do blog
     {
       url: "https://utilitytools.vercel.app/blog/categorias/noticias-e-tendencias",
-      lastModified: "2024-10-10",
+      lastModified: "2024-10-15",
       priority: 0.7,
     },
     {
@@ -82,7 +82,7 @@ export default function sitemap() {
     },
     {
       url: "https://utilitytools.vercel.app/blog/categorias/desenvolvimento-e-programacao",
-      lastModified: "2024-10-13",
+      lastModified: "2024-10-14",
       priority: 0.7,
     },
     {
@@ -145,6 +145,11 @@ export default function sitemap() {
     {
       url: "https://utilitytools.vercel.app/blog/artigos/como-fazer-dinheiro-com-programacao-sendo-autonomo",
       lastModified: "2024-10-14",
+      priority: 0.8,
+    },
+    {
+      url: "https://utilitytools.vercel.app/blog/artigos/tecnologia-sustentavel-como-ela-pode-mudar-o-mundo",
+      lastModified: "2024-10-15",
       priority: 0.8,
     },
   ];
